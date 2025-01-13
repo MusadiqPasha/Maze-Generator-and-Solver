@@ -23,11 +23,18 @@ This project generates random mazes and solves them using Dijkstra's algorithm t
 - It explores neighboring cells, updating the shortest path cost, and reconstructs the solution path once the end is reached.
 - The path is then marked on the maze (2).
 
-
 ### Visualization:
 - During the maze generation, the walls (-2) are drawn as black squares, while the open paths (-1) are displayed as white squares.
 - The start point is typically highlighted as a red square (1).
 - The path solution is displayed as purple squares (2) during the auto-solve process.
+
+## Demo
+
+### Dijkstra's algorithm
+<img src='https://github.com/MusadiqPasha/Maze-Generator-and-Solver/blob/main/demo/solve%20auto.gif'>
+
+### User
+<img src='https://github.com/MusadiqPasha/Maze-Generator-and-Solver/blob/main/demo/solve%20user.gif'>
 
 ## Usage
 **Generate Maze:** Click the "Generate Maze" button to create a new random maze.
@@ -35,10 +42,6 @@ This project generates random mazes and solves them using Dijkstra's algorithm t
 **Auto Solve: **Click the "Auto-Solve" button to solve the maze automatically using Dijkstra's algorithm.
 **Adjust Maze Size:** Click on the Maze Size button , then enter a new maze size in the input box (default: 50x50) and press Enter to update the maze and move the cursor out of the Maze Size box and click it.
 
-
-## Demo
-
-<img src='https://github.com/MusadiqPasha/Cellular-Automata-Visualizer/blob/main/ca%20demo/Larger_than_life.gif'>
 
 ## Installation
 1. Download and install [Processing](https://processing.org/) [use Python Mode]
